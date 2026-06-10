@@ -529,6 +529,15 @@ section:nth-child(even) {
   margin-bottom: 0.5rem;
 }
 
+.card h3 a, .card h4 a {
+  color: var(--text);
+  transition: color var(--transition);
+}
+
+.card h3 a:hover, .card h4 a:hover {
+  color: var(--accent);
+}
+
 .card p { font-size: 0.9rem; color: var(--text-muted); }
 
 .card-grid {
